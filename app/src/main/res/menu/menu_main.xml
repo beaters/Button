@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/more"
+        android:orderInCategory="100" app:showAsAction="never" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="@string/app_name"
+                    android:icon="@drawable/xx"/>
+                <item android:icon="@drawable/wechat"
+                    android:title="@string/hello_world"/>
+                </group>>
+        </menu>
+        </item>>
+    <item android:title="@string/exit"
+        android:icon="@drawable/wechat">
+
+    </item>
+</menu>
